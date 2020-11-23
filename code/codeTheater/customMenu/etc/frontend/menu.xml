@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/menu.xsd">
+    <menu>
+        <!--<menu frontName="customMenu" id="customMenu">-->
+            <!--<module name="codeTheater_customMenu"/>-->
+
+            <add id="codeTheater_customMenu::custom_menu" title="Custom Menu" module="codeTheater_customMenu" sortOrder="80" resource="codeTheater_customMenu::custom_menu"/>
+
+            <add id="codeTheater_customMenu::menu1" title="Menu1" module="codeTheater_customMenu" sortOrder="10" parent="codeTheater_customMenu::custom_menu" action="" resource="codeTheater_customMenu::menu1"/>
+
+        <add id="codeTheater_customMenu::menu2" title="Menu2" module="codeTheater_customMenu" sortOrder="30" parent="codeTheater_customMenu::custom_menu" action="" resource="codeTheater_customMenu::menu2"/>
+
+
+        </menu>
+
+</config>
