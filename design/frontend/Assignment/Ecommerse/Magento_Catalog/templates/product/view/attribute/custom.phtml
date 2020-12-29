@@ -1,0 +1,27 @@
+<?php
+$product = $block->getProduct();
+$attrData = $product->getData('clothing_material');
+
+if(trim($attrData) !=="")  :?>
+<div class="product-full-width-section">
+    <h2> <?php echo "Custom Material : ". $attrData; ?> </h2>
+
+</div>
+
+
+<?php  endif; ?>
+
+
+<?php
+$product = $block->getProduct();
+$attrData = $product->getData('dynamic_price');
+
+if(trim($attrData) !=="")  :?>
+    <div class="product-full-width-section">
+        <h2> <?php echo " Dynamic Price :". $attrData; ?> </h2>
+
+    </div>
+
+
+<?php  endif; ?>
+

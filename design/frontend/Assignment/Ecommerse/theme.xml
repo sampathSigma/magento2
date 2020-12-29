@@ -1,0 +1,9 @@
+<theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
+    <title>My Custom Theme</title>
+    <parent>Magento/luma</parent>
+
+    <!--<media>-->
+    <!--<preview_>media/preview.jpg</preview_>-->
+    <!--</media>-->
+
+</theme>
